@@ -217,7 +217,6 @@ def main():
         file.write(json.dumps(c_test)  + "\n")
 
     save_model(estimator, "files/models/model.pkl.gz")
-    
 
 if __name__ == "__main__":
     main()
